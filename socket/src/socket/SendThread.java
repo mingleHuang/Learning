@@ -17,7 +17,6 @@ public class SendThread extends Thread {
 		try {
 			OutputStream os = s.getOutputStream();
 			DataOutputStream dos = new DataOutputStream(os);
-			
 			while(true) {
 				Scanner sc = new Scanner(System.in);
 				String str = sc.next();
